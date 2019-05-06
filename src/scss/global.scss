@@ -1,0 +1,33 @@
+/* 弹窗全局公共样式 */
+
+.modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.modal-box {
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+    border: 1px solid #ebeef5;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+}
+
+/* 动画 */
+
+
+//动画
+.animation-fade-enter-active, .animation-fade-leave-active {
+    transition: opacity .5s;
+  }
+  .animation-fade-enter, .animation-fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+    opacity: 0;
+  }
